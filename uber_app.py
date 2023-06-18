@@ -15,7 +15,7 @@ st.title('Uber Fares Prediction')
 st.image('Uber.png',width = 550)
 
 # Load data
-df = pd.read_csv('clean_data.csv')
+df = pd.read_csv('Clean_data.csv')
 scale = pd.read_pickle('scale.pkl')
 model = pd.read_pickle('model.pkl')
 
